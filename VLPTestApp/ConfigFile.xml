@@ -1,0 +1,1624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Version>X.X.X.X</Version>
+  <Users></Users>
+  <S3DServers>
+    <TrainServer>10.80.3.181</TrainServer>
+    <S3DServer>10.80.3.57</S3DServer>
+    <S3DServer>10.144.8.104</S3DServer>
+    <S3DServer>10.80.2.152</S3DServer>
+    <S3DServer>10.146.5.139</S3DServer>
+  </S3DServers>
+  <MachineGroup>
+    <Machine Name="NLHAG1-MAN002" Location="TheHague" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="NLHAG1-MAN006" Location="TheHague" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="NLHAG1-MAN007" Location="TheHague" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="NLHAG1-MAN008" Location="TheHague" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="NLMRN1-DSK9001" Location="Meerssen" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="NLHGV1-DSK2883" Location="Hoogvliet" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="NLMRN1-MAN002" Location="Meerssen" Version="SIM2018">AVAILABLE</Machine>
+    <Machine Name="LEIDT3069" Location="TheHague" Version="SIM2018">AVAILABLE</Machine>
+  </MachineGroup>
+  <Locations>
+    <Location Name="TheHague"></Location>
+    <Location Name="Hoogvliet"></Location>
+    <Location Name="Houston"></Location>
+    <Location Name="Meerssen"></Location>
+    <Location Name="Milan"></Location>
+  </Locations>
+  <Projects>
+    <Project Number="NL772500">
+      <Client>IrvingOil</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>IRV</Code>
+      <Description>Irving Oil Whitegate Ref</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>IOC</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\ioc</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL772500</Custom>
+      <Archive>\\NLHAG1VS01\Project2\NL772500\COMMON_FILE\NavisWorks\Archive</Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL795200">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01266</Code>
+      <Description>HMU Emission Reduction Project</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>X</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL795200</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL772900">
+      <Client>Shell Trading &amp; Supply</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLDN00104</Code>
+      <Description>PER Import by barge</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>STS</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\sts</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL772900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL781000">
+      <Client>Shell</Client>
+      <Restriction>Admin</Restriction>
+      <Active>No</Active>
+      <Code>SWAN</Code>
+      <Description>Shell SDO Rheinland SWAN</Description>
+      <Software>InterGraph SmartPlant3D</Software>
+      <Version>2014 R1</Version>
+      <DBInfo1>leidbs30</DBInfo1>
+      <DBInfo2>SWAN_SDB</DBInfo2>
+      <Server></Server>
+      <Custom></Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL794302">
+      <Client>ShellMoerdijk</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>MLO2</Code>
+      <Description>3D Scan Pipe Bridge MLO 2 Unit 600</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SNC</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\snc</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL794302</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL784400">
+      <Client>Borealis</Client>
+      <Restriction>Admin</Restriction>
+      <Active>No</Active>
+      <Code>PDH2</Code>
+      <Description>Borealis PDH2 Kallo</Description>
+      <Software>InterGraph SmartPlant3D</Software>
+      <Version>2014 R1</Version>
+      <DBInfo1></DBInfo1>
+      <DBInfo2>Test</DBInfo2>
+      <Server>\\innmb4-fil004\Proj_Data\Project\WIP\NL7844_Borealis_Dehy2\DTS\SPR_Sessions</Server>
+      <Custom></Custom>
+      <Archive>\\NLHAG1VS01\Project2\NL784400\COMMON_FILE\NavisWorks\Archive</Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL548100">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>BP All PDMS Areas</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\FCC</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL548100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Weekly</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL784000">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF1201</Code>
+      <Description>Operate Gasifiers at 3x 100 on SDA Asphalt SGHP</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>C-U</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL784000</Custom>
+      <Archive>\\nlhag1vs01\Project2\NL784000\COMMON_FILE\Navisworks\Archive</Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL782900">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code>NLMF01054</Code>
+      <Description>MGR Fuelgas 2 Project</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\cdv</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL782900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL760500">
+      <Client>Gunvor</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Gunvor Petroleum</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>GPR</DBInfo1>
+      <DBInfo2>B-D-E-G</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\GPR</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL760500</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL677000">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01094</Code>
+      <Description>Girbotols Safety Upgrade and sightglass replacement</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>K</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL677000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL678100">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Shell Small Projects NLMF01021</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>C-D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\cdv</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL678100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL679901">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01228</Code>
+      <Description>RDU Tailgas</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL679901</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL685800">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>TAR2019</Code>
+      <Description>BP TAR2019</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>C</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\fcc</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL685800</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL688600">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Offgas Treatment Unit (OTU)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>R-N</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\fcc</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL688600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL748400">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF00938</Code>
+      <Description>HV7 Debottlenecking Wpack 4-1</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>F</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL748400</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL753100">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01028</Code>
+      <Description>HF Alky TA 2019</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>K</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL753100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL753600">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Connection to Hutton Terminal</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>H</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\FCC</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL753600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL851000">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Marpol 2020 - Segregated Fuel Oil Systems</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>H</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\FCC</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL851000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL755800">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Repl. Heavy Slop Line RWH to RVC - Wpack 13 upto 17</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>I</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL755800</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL765900">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01080</Code>
+      <Description>HDS6 Upgrade cooling water system</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>N</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL765900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL767000">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01117</Code>
+      <Description>CC2 Slurry to SDA pitch (SDA related)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>I</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL767000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL791700">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01289</Code>
+      <Description>Relieving E903/4 and E953/4</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>S</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL791700</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL792800">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>SER-2276-HFALK-E6404</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>K</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\hsl</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL792800</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL793200">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01267</Code>
+      <Description>Hycon K1001 ABS Flareline Project AFS</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\hsl</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL793200</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL794500">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01355</Code>
+      <Description>HF Alky Monel</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>K</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\hsl</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL794500</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL854500">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>HDS5</Code>
+      <Description>HDS-5 TA 2020 Portfolio</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>L</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\cdv</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL854500</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL750200">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01009</Code>
+      <Description>Shell - Mod file RDU-8 - Wpack 3</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>L</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL750200</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL751600">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code>NLMF01197</Code>
+      <Description>HV5-6 Pepper 2</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL751600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL569500">
+      <Client>LyondellBasell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Botlek &amp; Europoort</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>BHD</DBInfo1>
+      <DBInfo2>A-B</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\BHD</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL569500</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL756800">
+      <Client>LyondellBasell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Maasvlakte</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>LYO</DBInfo1>
+      <DBInfo2>A-B</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\LYO</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL756800</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="MLK61640">
+      <Client>BASF Italia</Client>
+      <Restriction>Admin</Restriction>
+      <Active>No</Active>
+      <Code>K616</Code>
+      <Description>BASF Italia - K616</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>BAS</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\MILAPP06\3dcad\PDMS\usr1\rd120\BAS</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\MLK61640</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL856300">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01342</Code>
+      <Description>SGHP HotOil</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\hsl</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL856300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL857100">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>SRU4</Code>
+      <Description>BP SRU4</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>B</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\FCC</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL857100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL683000">
+      <Client>ExxonMobil</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>ExxonMobil Overall Model</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>EXH</DBInfo1>
+      <DBInfo2>H-P</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\EXH</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL683000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL756400">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF00108</Code>
+      <Description>VRU-Debottlenecking</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>G</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL756400</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL640301">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMFXXXXX</Code>
+      <Description>HSL Model</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL640301</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Weekly</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL852300">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01137</Code>
+      <Description>EOL KLM FLARE</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>D-L</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL852300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL776201">
+      <Client>Statoil</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code>H2CM - CASE-1</Code>
+      <Description>H2 to Magnum (Case - 1)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version></Version>
+      <DBInfo1>GSB</DBInfo1>
+      <DBInfo2>A-INFRA</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\GSB</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL776201</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL776202">
+      <Client>Statoil</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code>H2CM - CASE-2</Code>
+      <Description>H2 to Magnum (Case - 2)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version></Version>
+      <DBInfo1>GSB</DBInfo1>
+      <DBInfo2>B-INFRA</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\GSB</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL776202</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL776203">
+      <Client>Statoil</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code>H2CM - CASE-3</Code>
+      <Description>H2 to Magnum (Case - 3)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version></Version>
+      <DBInfo1>GSB</DBInfo1>
+      <DBInfo2>E-INFRA</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\GSB</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL776203</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL789700">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01254</Code>
+      <Description>Replacement Tail Gas Headers SRU to SCOT600</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>P</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL789700</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="GG152004">
+      <Client>SDO</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>CoreII</Code>
+      <Description>Core II (AREA K/O)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SDO</DBInfo1>
+      <DBInfo2>K-O</DBInfo2>
+      <Server>\\CGNAPP14\3dcad\PDMS\usr1\rd120\SDO</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\GG152004</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL760102">
+      <Client>PTS</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code></Code>
+      <Description>PTS Template Setup (PHISQL01) Conshohocken</Description>
+      <Software>InterGraph SmartPlant3D</Software>
+      <Version>2016</Version>
+      <DBInfo1>PHISQL01\S3D</DBInfo1>
+      <DBInfo2>CON_VLP_SDB</DBInfo2>
+      <Server></Server>
+      <Custom></Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL760100">
+      <Client>PTS</Client>
+      <Restriction>SuperUser</Restriction>
+      <Active>No</Active>
+      <Code>SWAN_TEST</Code>
+      <Description>SWAN_TEST</Description>
+      <Software>InterGraph SmartPlant3D</Software>
+      <Version>2014 R1</Version>
+      <DBInfo1>leidbs30</DBInfo1>
+      <DBInfo2>TEST_SWAN_SDB</DBInfo2>
+      <Server></Server>
+      <Custom></Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Weekly</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NM479100">
+      <Client>Vopak</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>VTB</Code>
+      <Description>Ethanol Project VTB</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>VPC</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\MERAPP02\3dcad\PDMS\usr1\rd120\VPC</Server>
+      <Custom>\\nlmrn1-man002\3Dmodels\Storage\NM479100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>Meerssen</Hub>
+    </Project>
+    <Project Number="NL746500">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF00759</Code>
+      <Description>ROM Instrumentation Masterplan (Wpack 5-1)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>E-H</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL746500</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NM493700">
+      <Client>Nyrstar-Budel</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>ATEX-CD Emissie Reductie</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>NBA</DBInfo1>
+      <DBInfo2>A-B</DBInfo2>
+      <Server>\\merapp02\3dcad\PDMS\usr1\rd120\NBA</Server>
+      <Custom>\\nlmrn1-man002\3Dmodels\Storage\NM493700</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NM499400">
+      <Client>Vopak</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>Central-VTU</Code>
+      <Description>Central VTU Jetty 1 &amp; 2</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>VOE</DBInfo1>
+      <DBInfo2>B-D</DBInfo2>
+      <Server>\\merapp02\3dcad\PDMS\usr1\rd120\VOE</Server>
+      <Custom>\\nlmrn1-man002\3Dmodels\Storage\NM499400</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>Meerssen</Hub>
+    </Project>
+    <Project Number="NM500600">
+      <Client>Ineos-Styrolution</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Low residual ABS rubber Basic</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>ISA</DBInfo1>
+      <DBInfo2>A-B</DBInfo2>
+      <Server>\\merapp02\3dcad\PDMS\usr1\rd120\ISA</Server>
+      <Custom>\\nlmrn1-man002\3Dmodels\Storage\NM500600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>Meerssen</Hub>
+    </Project>
+    <Project Number="NM501600">
+      <Client>Dionysos - Sitech</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>D2R-HPS</Code>
+      <Description>Dionysos 2 R &amp; HP Stripper</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SIB</DBInfo1>
+      <DBInfo2>A-B</DBInfo2>
+      <Server>\\merapp02\3dcad\PDMS\usr1\rd120\SIB</Server>
+      <Custom>\\nlmrn1-man002\3Dmodels\Storage\NM501600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>Meerssen</Hub>
+    </Project>
+    <Project Number="NL782999">
+      <Client>Shell</Client>
+      <Restriction>Admin</Restriction>
+      <Active>No</Active>
+      <Code>NLMF01054</Code>
+      <Description>MGR Fuelgas 2 (Export Only)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\hsl</Server>
+      <Custom></Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL860900">
+      <Client>Teijin</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Teijin Twaron Emmen</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>EBD</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\EBD</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL860900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NM475600">
+      <Client>Melior</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Melior project VTT</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>VPC</DBInfo1>
+      <DBInfo2>E-F</DBInfo2>
+      <Server>\\merapp02\3Dcad\PDMS\usr1\rd120\vpc</Server>
+      <Custom>\\nlmrn1-man002\3Dmodels\Storage\NM475600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>Meerssen</Hub>
+    </Project>
+    <Project Number="NL791100">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>PGP Offplot steamline end of life</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>F-J</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\nlhag1-man006\3DModels\Storage\NL791100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL853400">
+      <Client>Shell Dansk</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>DKMF00366</Code>
+      <Description>Crude Flex Phase 3</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SDA</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\SDA</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL853400</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL792900">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01263</Code>
+      <Description>RWH Hycon V1706 condensate rundown</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\hsl</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL792900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL787100">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01262</Code>
+      <Description>Shell LFSO Project</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>E-G</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL787100</Custom>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+      <Archive></Archive>
+    </Project>
+    <Project Number="NL787199">
+      <Client>Shell</Client>
+      <Restriction>SuperUser</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01262</Code>
+      <Description>Shell LFSO (Admin only for Export)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>E</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom></Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL6451500">
+      <Client>Borealis</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code>BOB</Code>
+      <Description>Borealis PP6 Old PDMS Model</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>12.1</Version>
+      <DBInfo1>BOB</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\BOB</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL6451500</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL640300">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMFXXXXX</Code>
+      <Description>CDV Model</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL640300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Weekly</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL723000">
+      <Client>ExxonMobil</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>G2R Terrain 14</Code>
+      <Description>Gravenchon Gofiner Second Reactor</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>21</Version>
+      <DBInfo1>ERG</DBInfo1>
+      <DBInfo2>D-E</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd121\ERG</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL723000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL796000">
+      <Client>ShellMoerdijk</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>3DScanMSPO</Code>
+      <Description>3D Scan Pipebridge MSPO</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SNC</DBInfo1>
+      <DBInfo2>B</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\SNC</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL796000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL794600">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>Low Salt</Code>
+      <Description>Low Salt Each Day FCM</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL794600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL784700">
+      <Client>OCI Terminal Europoort</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>12" pipe to Ammoniac Tanks</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>OCA</DBInfo1>
+      <DBInfo2>A</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\OCA</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL784700</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL748600">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF</Code>
+      <Description>Spring 2019 TA CC2</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>I</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL748600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL793600">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01304</Code>
+      <Description>HV7 Cyclic Hazop Scope (Wpack 5 (TheHague) &amp; 6 (Airoli)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>F</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL793600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL720300">
+      <Client>ExxonMobil</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Lube-Oil-Upgrade</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>EXP</DBInfo1>
+      <DBInfo2>B</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\EXP</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL720300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHGV1-DSK2883</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL861900">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF00669</Code>
+      <Description>High Temperature Tracing SGHP Lines</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL861900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL595000">
+      <Client>Dupont</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code></Code>
+      <Description>All projects</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>DOC</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server></Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL595000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>On Demand</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL579400">
+      <Client>Chemours</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code></Code>
+      <Description>All projects</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>DOM</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server></Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL579400</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>On Demand</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL754100">
+      <Client>Jacobs Technology</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Animation / Visualization</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>GPS</DBInfo1>
+      <DBInfo2>G</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\GPS</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL754100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL722000">
+      <Client>ExxonMobil</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>Terrain 25</Code>
+      <Description>Gravenchon Infeneum</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>21</Version>
+      <DBInfo1>ERG</DBInfo1>
+      <DBInfo2>A-B</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd121\ERG</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL722000</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL681202">
+      <Client>Shell</Client>
+      <Restriction>Admin</Restriction>
+      <Active>No</Active>
+      <Code></Code>
+      <Description>TA Cycle Extension HV5/6</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom></Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>On Demand</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL861300">
+      <Client>Borealis</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Borealis Beringen PP2</Description>
+      <Software>InterGraph SmartPlant3D</Software>
+      <Version></Version>
+      <DBInfo1></DBInfo1>
+      <DBInfo2></DBInfo2>
+      <Server>\\INNMB4-DSK0554\Borstar_SPR</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL861300</Custom>
+      <Archive>\\NLHAG1VS01\Project2\NL861300\COMMON_FILE\Navisworks_Archive</Archive>
+      <ArchiveT>True</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+      <Scans Available="Yes">
+        <Scan Name="PP1">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP1.nwd</Scan>
+        <Scan Name="PP2">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP2.nwd</Scan>
+        <Scan Name="PP3">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP3.nwd</Scan>
+        <Scan Name="PP4">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP4.nwd</Scan>
+        <Scan Name="PP5">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP5.nwd</Scan>
+        <Scan Name="PP6">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP6.nwd</Scan>
+        <Scan Name="PP7">\\NLHAG1-MAN006\3DModels\Storage\BB575700\NavisworksModel\BB575700_Scan_PP7.nwd</Scan>
+      </Scans>
+    </Project>
+    <Project Number="BB094300">
+      <Client>ExxonMobil</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>ACE</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>ESA</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\hgvapp06\3DCAD\PDMS\usr1\rd121\ESA</Server>
+      <Custom>\\NLHGV1-DSK2883\3DModels\Storage\BB094300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHGV1-DSK2883</Machine>
+      <Hub>Hoogvliet</Hub>
+    </Project>
+    <Project Number="NL789900">
+      <Client>BASF</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>NL_14_21_NHJ</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>NHJ</DBInfo1>
+      <DBInfo2>A</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\NHJ</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL789900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>On Demand</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL692100">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>No</Active>
+      <Code></Code>
+      <Description>SDA</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>T</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL692100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>On Demand</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL791900">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01173</Code>
+      <Description>RHP - HCU U1100 V1104 level bar upgrade</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL791900</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NM488600">
+      <Client>Sabic</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code></Code>
+      <Description>Flare V894</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SAB</DBInfo1>
+      <DBInfo2>M-N</DBInfo2>
+      <Server>\\merapp02\3Dcad\PDMS\usr1\rd120\SAB</Server>
+      <Custom>\\nlmrn1-Man002\3DModels\Storage\NM488600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLMRN1-MAN002</Machine>
+      <Hub>Meerssen</Hub>
+    </Project>
+    <Project Number="NL671200">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF00873</Code>
+      <Description>Crude Flex Projects</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>SHT</DBInfo1>
+      <DBInfo2>ALL</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\SHT</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL671200</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL851600">
+      <Client>BP</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>A-0116613</Code>
+      <Description>Gasoil Grades GOH 1 &amp; 3</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>FCC</DBInfo1>
+      <DBInfo2>H</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\FCC</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL851600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL795400">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF1323</Code>
+      <Description>MP Steam A-line</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>P</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL795400</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL794699">
+      <Client>Shell</Client>
+      <Restriction>SuperUser</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01293</Code>
+      <Description>Low Salt (Admin only export)</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL794699</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL670600">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF00629</Code>
+      <Description>Repl. HOV's by MOV's -ROM-Suction line Jet A1 tanks</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>G</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL670600</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL797100">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01287</Code>
+      <Description>HOB2 F301A Revamp</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version></Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>Q</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL797100</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL793300">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01194</Code>
+      <Description>Environmental analysers upgrade Wpack 141 - 144</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>HSL</DBInfo1>
+      <DBInfo2>C</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\HSL</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL793300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+    <Project Number="NL795300">
+      <Client>Shell</Client>
+      <Restriction>User</Restriction>
+      <Active>Yes</Active>
+      <Code>NLMF01121</Code>
+      <Description>Alt. routing PP splitter during TI-1255</Description>
+      <Software>Aveva PDMS/E3D</Software>
+      <Version>121</Version>
+      <DBInfo1>CDV</DBInfo1>
+      <DBInfo2>D</DBInfo2>
+      <Server>\\LEIAPP01\3dcad\PDMS\usr1\rd120\CDV</Server>
+      <Custom>\\NLHAG1-MAN006\3DModels\Storage\NL795300</Custom>
+      <Archive></Archive>
+      <ArchiveT>False</ArchiveT>
+      <Frequency>Daily</Frequency>
+      <Machine>NLHAG1-MAN006</Machine>
+      <Hub>TheHague</Hub>
+    </Project>
+  </Projects>
+</Config>

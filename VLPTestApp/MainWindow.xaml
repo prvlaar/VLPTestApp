@@ -5,10 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VLPTestApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="192.135" Width="655.393">
     <Grid>
-        <ComboBox HorizontalAlignment="Left" Margin="183,128,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="461,128,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,43,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="175,43,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="341,43,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="502,43,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="16,22,0,0" TextWrapping="Wrap" Text="Client" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="175,22,0,0" TextWrapping="Wrap" Text="ProjectNr" VerticalAlignment="Top" Width="57"/>
+        <TextBlock HorizontalAlignment="Left" Margin="341,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Height="16"><Run Text="AccountCode"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="502,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Height="16"><Run Text="ShortCode"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="16,76,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="68" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="175,76,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="68" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="341,76,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="68" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="502,76,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="68" FontWeight="Bold"/>
 
     </Grid>
 </Window>
